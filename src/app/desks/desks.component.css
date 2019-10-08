@@ -18,6 +18,7 @@
 
 @media (min-width: 768px) {
   .desks__container {
+    grid-auto-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     grid-template-areas: '. . .';
   }
